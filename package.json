@@ -1,0 +1,26 @@
+{
+  "name": "bot-twitch-ts",
+  "version": "1.0.0",
+  "description": "Bot de Twitch hecho en TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --respawn ./src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "twitch",
+    "bot",
+    "typescript"
+  ],
+  "author": "Nahuel Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "say": "^0.16.0",
+    "tmi.js": "^1.8.5",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7"
+  }
+}
